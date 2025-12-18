@@ -140,7 +140,7 @@ def main() -> None:
     push_changes()
 
     print(f"\nRelease {version} complete!")
-    print(f"View at: https://github.com/m1yag1/adr/releases/tag/v{version}")
+    print(f"View at: https://github.com/m1yag1/dark-madr/releases/tag/v{version}")
 
 
 if __name__ == "__main__":

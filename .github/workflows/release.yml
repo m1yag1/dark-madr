@@ -184,7 +184,7 @@ jobs:
 
           ## Documentation
 
-          See the [README](https://github.com/m1yag1/adr.py/blob/v${{ steps.get_version.outputs.version }}/README.md) for full documentation.
+          See the [README](https://github.com/m1yag1/dark-madr/blob/v${{ steps.get_version.outputs.version }}/README.md) for full documentation.
           EOF
           else
             cat > release_notes.md << EOF
@@ -198,7 +198,7 @@ jobs:
 
           ## Documentation
 
-          See the [README](https://github.com/m1yag1/adr.py/blob/main/README.md) for full documentation.
+          See the [README](https://github.com/m1yag1/dark-madr/blob/main/README.md) for full documentation.
           EOF
           fi
 
@@ -240,7 +240,7 @@ jobs:
           echo ""
           echo "Package available at:"
           echo "   - PyPI: https://pypi.org/project/dark-madr/${{ steps.get_version.outputs.version }}/"
-          echo "   - GitHub Release: https://github.com/m1yag1/adr.py/releases/tag/v${{ steps.get_version.outputs.version }}"
+          echo "   - GitHub Release: https://github.com/m1yag1/dark-madr/releases/tag/v${{ steps.get_version.outputs.version }}"
 
       - name: Failure summary
         if: ${{ contains(needs.*.result, 'failure') }}

@@ -51,9 +51,9 @@ docs = [
 adr = "adr.cli:main"
 
 [project.urls]
-Documentation = "https://github.com/m1yag1/adr.py/blob/main/README.md"
-Issues = "https://github.com/m1yag1/adr.py/issues"
-Source = "https://github.com/m1yag1/adr.py"
+Documentation = "https://github.com/m1yag1/dark-madr/blob/main/README.md"
+Issues = "https://github.com/m1yag1/dark-madr/issues"
+Source = "https://github.com/m1yag1/dark-madr"
 
 [tool.hatch.version]
 path = "src/adr/__init__.py"
